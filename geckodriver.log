@@ -1,0 +1,706 @@
+1663097102382	geckodriver	INFO	Listening on 127.0.0.1:50051
+1663097105449	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50052" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilejabU6Z"
+1663097107188	Marionette	INFO	Marionette enabled
+1663097107201	Marionette	INFO	Listening on port 50069
+WebDriver BiDi listening on ws://localhost:50052
+Read port: 50069
+1663097107450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilejabU6Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50052/devtools/browser/49fd4c62-d0b2-4adf-97c0-a755dfbcaad3
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:170:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:967:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:170:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:967:13
+
+1663098332009	Marionette	INFO	Stopped listening on port 50069
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+tils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2150:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:529:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:438:21
+Line: 699, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1663097460698	Marionette	INFO	Stopped listening on port 50207
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663097540742	geckodriver	INFO	Listening on 127.0.0.1:50561
+1663097543823	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50562" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileUfHuCG"
+1663097545702	Marionette	INFO	Marionette enabled
+1663097545713	Marionette	INFO	Listening on port 50575
+WebDriver BiDi listening on ws://localhost:50562
+Read port: 50575
+1663097545962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileUfHuCG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50562/devtools/browser/9ca8ff3b-a205-4fd9-94a0-46414fc85c0d
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1663097647138	Marionette	INFO	Stopped listening on port 50575
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663097749690	geckodriver	INFO	Listening on 127.0.0.1:50792
+1663097752775	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50793" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilewOGpPY"
+1663097753983	Marionette	INFO	Marionette enabled
+1663097753992	Marionette	INFO	Listening on port 50805
+WebDriver BiDi listening on ws://localhost:50793
+Read port: 50805
+1663097754250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilewOGpPY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50793/devtools/browser/f0496dba-cb05-4f8d-a804-3c61a76ad31c
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:170:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:967:13
+
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalidconsole.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+1663098334030	Marionette	INFO	Stopped listening on port 50958
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:170:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:967:13
+
+1663098332941	Marionette	INFO	Stopped listening on port 50805
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1663098335095	Marionette	INFO	Stopped listening on port 54200
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "50534" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilepuvBGH"
+1663098268529	Marionette	INFO	Marionette enabled
+1663098268542	Marionette	INFO	Listening on port 50549
+WebDriver BiDi listening on ws://localhost:50534
+Read port: 50549
+1663098268798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilepuvBGH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50534/devtools/browser/52956f33-b90b-4d48-b0f4-5303c3a463aa
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1663098336164	Marionette	INFO	Stopped listening on port 50549
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "50724" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileGKBn1C"
+1663098331160	Marionette	INFO	Marionette enabled
+1663098331171	Marionette	INFO	Listening on port 50734
+WebDriver BiDi listening on ws://localhost:50724
+Read port: 50734
+1663098331429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileGKBn1C\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50724/devtools/browser/be4a1bec-313e-454d-ae4a-42de7d189e97
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:170:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:967:13
+
+1663099193921	Marionette	INFO	Stopped listening on port 50734
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:170:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:967:13
+
+1663099193286	Marionette	INFO	Stopped listening on port 56610
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/query-stripping)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:170:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:967:13
+
+1663099192702	Marionette	INFO	Stopped listening on port 57015
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+synchronous message for:" "https://everythingzimbabwean.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 68: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1663099191125	Marionette	INFO	Stopped listening on port 57287
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "57783" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileNpbGT4"
+1663099008799	Marionette	INFO	Marionette enabled
+1663099008808	Marionette	INFO	Listening on port 57801
+WebDriver BiDi listening on ws://localhost:57783
+Read port: 57801
+1663099009006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 769))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 421))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileNpbGT4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57783/devtools/browser/953a88b0-eb4d-4406-8e5a-b336cf500781
+1663099188420	Marionette	INFO	Stopped listening on port 57801
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663099206998	geckodriver	INFO	Listening on 127.0.0.1:58035
+1663099210035	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58036" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileKpmvtq"
+1663099210775	Marionette	INFO	Marionette enabled
+1663099210779	Marionette	INFO	Listening on port 58049
+WebDriver BiDi listening on ws://localhost:58036
+Read port: 58049
+1663099210928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileKpmvtq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58036/devtools/browser/a8fe4c55-12bc-4646-9427-4bc1b024cf96
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1663099458973	Marionette	INFO	Stopped listening on port 58049
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663099466784	geckodriver	INFO	Listening on 127.0.0.1:58319
+1663099469860	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58320" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileuxyw0e"
+1663099470758	Marionette	INFO	Marionette enabled
+1663099470764	Marionette	INFO	Listening on port 58332
+WebDriver BiDi listening on ws://localhost:58320
+Read port: 58332
+1663099470909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileuxyw0e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58320/devtools/browser/69437289-2217-4df1-a5d9-52a25103d3e1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://everythingzimbabwean.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1663099686553	Marionette	INFO	Stopped listening on port 58332
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667826294952	geckodriver	INFO	Listening on 127.0.0.1:59693
+1667826298014	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilevLkVEO"
+1667826299182	Marionette	INFO	Marionette enabled
+1667826299189	Marionette	INFO	Listening on port 59708
+WebDriver BiDi listening on ws://localhost:59694
+Read port: 59708
+1667826299349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilevLkVEO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59694/devtools/browser/d6621799-b686-46b2-9da3-dcf22baf83c7
+1667826304049	Marionette	INFO	Stopped listening on port 59708
+!!! error running onStopped callback: TypeError: callback is not a function
+1667829219790	geckodriver	INFO	Listening on 127.0.0.1:62413
+1667829222858	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62414" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilemKswjF"
+1667829224015	Marionette	INFO	Marionette enabled
+1667829224021	Marionette	INFO	Listening on port 62424
+WebDriver BiDi listening on ws://localhost:62414
+Read port: 62424
+1667829224186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilemKswjF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62414/devtools/browser/2b667e38-ff01-49db-a3c5-2f26398f1e36
+1667829329487	Marionette	INFO	Stopped listening on port 62424
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "62534" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileX8QTS8"
+1667829285699	Marionette	INFO	Marionette enabled
+1667829285708	Marionette	INFO	Listening on port 62546
+WebDriver BiDi listening on ws://localhost:62534
+Read port: 62546
+1667829285894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileX8QTS8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62534/devtools/browser/65ee2d0c-caa2-4293-95c5-e3ece68c66d6
+1667829328414	Marionette	INFO	Stopped listening on port 62546
+1667829420553	geckodriver	INFO	Listening on 127.0.0.1:62745
+1667829423615	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62746" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileZWQ2MC"
+1667829424770	Marionette	INFO	Marionette enabled
+1667829424776	Marionette	INFO	Listening on port 62759
+WebDriver BiDi listening on ws://localhost:62746
+Read port: 62759
+1667829424957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileZWQ2MC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62746/devtools/browser/344e7261-ac03-40dc-8d63-f6fbbca37012
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+1667829554403	Marionette	INFO	Stopped listening on port 62759
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "62887" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofiledpTMkB"
+1667829510576	Marionette	INFO	Marionette enabled
+1667829510584	Marionette	INFO	Listening on port 62899
+WebDriver BiDi listening on ws://localhost:62887
+Read port: 62899
+1667829510776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofiledpTMkB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62887/devtools/browser/2bb4eb95-d548-4dd7-8702-4147df9d6f0b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 699"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:699:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:543:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2150:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:62:17
+watchResources@resource://devtools/server/actors/resources/index.js:288:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:161:24
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:53:20
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:528:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:437:21
+Line: 699, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 699: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667829551992	Marionette	INFO	Stopped listening on port 62899
+1667829690972	geckodriver	INFO	Listening on 127.0.0.1:63126
+1667829694043	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofiledDLmRb"
+1667829695302	Marionette	INFO	Marionette enabled
+1667829695307	Marionette	INFO	Listening on port 63139
+WebDriver BiDi listening on ws://localhost:63127
+Read port: 63139
+1667829695475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofiledDLmRb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63127/devtools/browser/d342926e-681b-45e0-a1fb-207612d2ac37
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1667829805985	Marionette	INFO	Stopped listening on port 63131667829807336	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileIjAwR2"
+1667829808520	Marionette	INFO	Marionette enabled
+1667829808529	Marionette	INFO	Listening on port 63315
+WebDriver BiDi listening on ws://localhost:63301
+Read port: 63315
+1667829808723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileIjAwR2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63301/devtools/browser/599577d0-6bd6-4312-9cea-b582280c81cf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1667829923352	Marionette	INFO	Stopped listening on port 63315
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667829925870	geckodriver	INFO	Listening on 127.0.0.1:63494
+1667829928927	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilednvkzP"
+1667829930164	Marionette	INFO	Marionette enabled
+1667829930171	Marionette	INFO	Listening on port 63507
+WebDriver BiDi listening on ws://localhost:63495
+Read port: 63507
+1667829930348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilednvkzP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63495/devtools/browser/3df35e37-000b-4568-b23d-aa9bb4300c75
+1667829940652	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1667830172926	Marionette	INFO	Stopped listening on port 63507
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e" "--remote-debugging-port" "63694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofile87Y2bN"
+1667830068330	Marionette	INFO	Marionette enabled
+1667830068338	Marionette	INFO	Listening on port 63706
+WebDriver BiDi listening on ws://localhost:63694
+Read port: 63706
+1667830068524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofile87Y2bN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63694/devtools/browser/38825307-cb48-44a5-9fc6-afd45210cfca
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1667830646848	Marionette	INFO	Stopped listening on port 63706
+.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1667830521752	Marionette	INFO	Stopped listening on port 64018
+1667830615446	geckodriver	INFO	Listening on 127.0.0.1:64298
+1667830618515	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileAsBItL"
+1667830619618	Marionette	INFO	Marionette enabled
+1667830619622	Marionette	INFO	Listening on port 64311
+WebDriver BiDi listening on ws://localhost:64299
+Read port: 64311
+1667830619794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileAsBItL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64299/devtools/browser/81f9d22a-b091-49f7-ae07-d0bc5c8bc47b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+1667830645789	Marionette	INFO	Stopped listening on port 64311
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667830672480	geckodriver	INFO	Listening on 127.0.0.1:64418
+1667830675546	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofile7ZEl3Q"
+1667830676671	Marionette	INFO	Marionette enabled
+1667830676676	Marionette	INFO	Listening on port 64428
+WebDriver BiDi listening on ws://localhost:64419
+Read port: 64428
+1667830676845	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofile7ZEl3Q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64419/devtools/browser/a48e0df1-be0b-4295-b5e0-62144c19e3d9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1667830785834	Marionette	INFO	Stopped listening on port 64421667830787884	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64607" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileoWq3ul"
+1667830789013	Marionette	INFO	Marionette enabled
+1667830789019	Marionette	INFO	Listening on port 64623
+WebDriver BiDi listening on ws://localhost:64607
+Read port: 64623
+1667830789179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileoWq3ul\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64607/devtools/browser/9ac4e094-bbd4-4b39-88a7-b8ba39314073
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 62: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1667831183861	Marionette	INFO	Stopped listening on port 64623
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.jsm:116:1
+NetworkError@resource://services-settings/RemoteSettingsClient.jsm:120:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.jsm:869:14
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:774:38
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668891692038	geckodriver	INFO	Listening on 127.0.0.1:58566
+1668891695152	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58567" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilealxTVC"
+1668891696485	Marionette	INFO	Marionette enabled
+1668891696493	Marionette	INFO	Listening on port 58582
+Read port: 58582
+WebDriver BiDi listening on ws://127.0.0.1:58567
+1668891696676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofilealxTVC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58567/devtools/browser/16ed860b-3917-476f-ab98-150361d40f8c
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1668891789660	Marionette	INFO	Stopped listening on port 58582
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668891849445	geckodriver	INFO	Listening on 127.0.0.1:58800
+1668891852478	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58801" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileRZdnSw"
+1668891853535	Marionette	INFO	Marionette enabled
+1668891853541	Marionette	INFO	Listening on port 58811
+Read port: 58811
+WebDriver BiDi listening on ws://127.0.0.1:58801
+1668891853696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileRZdnSw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58801/devtools/browser/4b60bf0d-027d-46fe-b849-c5772ef406ce
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+SourceActor threw an exception: [Exception... "Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'"  nsresult: "0x805303f4 (<unknown>)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 676"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:676:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:520:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:446:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:410:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2154:35
+addAllSources@resource://devtools/server/actors/thread.js:1486:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:302:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:46:25
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:528:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:437:21
+Line: 676, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 676: Failed to open input source 'resource://gre/modules/ExtensionContent.jsm'
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed  InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  main/addons-manager-settings local data was corrupted
+console.warn: services.settings: main/addons-manager-settings Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/addons-manager-settings Signature failed again InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/addons-manager-settings)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/doh-config Signature faiconsole.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1668892306686	Marionette	INFO	Stopped listening on port 59132
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+n/doh-config)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  main/public-suffix-list local data was corrupted
+console.warn: services.settings: main/public-suffix-list Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/public-suffix-list Signature failed again InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/public-suffix-list)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 local data was corrupted
+console.warn: services.settings: main/pioneer-study-addons-v1 Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed again InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+console.error: services.settings: 
+  Message: InvalidSignatureError: Invalid content signature (main/pioneer-study-addons-v1)
+  Stack:
+    InvalidSignatureError@resource://services-settings/RemoteSettingsClient.jsm:169:5
+_validateCollectionSignature@resource://services-settings/RemoteSettingsClient.jsm:977:13
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668896086005	Marionette	INFO	Stopped listening on port 58811
+1670850732587	geckodriver	INFO	Listening on 127.0.0.1:50941
+1670850735649	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50942" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileyFL2E1"
+1670850736549	Marionette	INFO	Marionette enabled
+1670850736554	Marionette	INFO	Listening on port 50958
+Read port: 50958
+WebDriver BiDi listening on ws://127.0.0.1:50942
+1670850736696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\TENDAY~1\\AppData\\Local\\Temp\\rust_mozprofileyFL2E1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50942/devtools/browser/e39bb75c-9360-4573-8d32-eed9b259edd4
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: https://everythingzimbabwean.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce-enhanced.js?ver=1.16.2, line 734: TypeError: dom_productdata is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://everythingzimbabwean.com."
+1670850904163	Marionette	INFO	Stopped listening on port 50958
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

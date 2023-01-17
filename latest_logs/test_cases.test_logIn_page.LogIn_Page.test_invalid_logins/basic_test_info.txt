@@ -1,0 +1,23 @@
+test_cases/test_logIn_page.py::LogIn_Page::test_invalid_logins
+--------------------------------------------------------------------
+Last Page: https://everythingzimbabwean.com/
+  Browser: chrome (108.0.5359.125)
+   Driver: chromedriver (108.0.5359.71)
+Timestamp: 1672322192  (Unix Timestamp)
+     Date: Thursday, 29 December 2022
+     Time: 3:56:32 PM  (South Africa Standard Time, UTC+02:00)
+--------------------------------------------------------------------
+Traceback: File "C:\Users\TendayiKunaka\AppData\Local\Programs\Python\Python310\lib\unittest\case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\TendayiKunaka\AppData\Local\Programs\Python\Python310\lib\unittest\case.py", line 549, in _callTestMethod
+    method()
+  File "C:\Users\TendayiKunaka\PycharmProjects\pythonProject\everythinZimbabwean\test_cases\test_logIn_page.py", line 40, in test_invalid_logins
+    self.click("")
+  File "C:\Users\TendayiKunaka\AppData\Local\Programs\Python\Python310\lib\site-packages\seleniumbase\fixtures\base_case.py", line 285, in click
+    element = page_actions.wait_for_element_visible(
+  File "C:\Users\TendayiKunaka\AppData\Local\Programs\Python\Python310\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 421, in wait_for_element_visible
+    timeout_exception(NoSuchElementException, message)
+  File "C:\Users\TendayiKunaka\AppData\Local\Programs\Python\Python310\lib\site-packages\seleniumbase\fixtures\page_actions.py", line 190, in timeout_exception
+    raise exc(msg)
+Exception: Message: 
+ Element {} was not present after 7 seconds!
