@@ -50,7 +50,7 @@ close = driver.find_element(By.XPATH, "//button[@class='pswp__button pswp__butto
 close.click()
 
 # select quantity
-quantity = driver.find_element(By.ID, "quantity_6369020d445f7")
+quantity = driver.find_element(By.NAME, "quantity") # quantity_6369020d445f7")
 quantity.click()
 quantity.clear()
 quantity.send_keys(2)
