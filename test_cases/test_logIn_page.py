@@ -1,7 +1,9 @@
 
 import time
 
+from selenium import webdriver
 from seleniumbase import BaseCase
+
 
 class LogIn_Page(BaseCase):
     def setUp(self):
